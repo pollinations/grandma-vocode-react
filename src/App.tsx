@@ -37,7 +37,7 @@ const App = () => {
   };
   const agentConfig: ChatGPTAgentConfig = {
     type: "agent_chat_gpt",
-    initialMessage: { type: "message_base", text: "Greetings Pixelynx employee 0001. Welcome to the music metaverse! I am your partner. I am your Echo. Talk to me." },
+    initialMessage: { type: "message_base", text: "Greetings Pixelynx employee. Welcome to the music metaverse! I am your partner. I am your Echo. You can talk to me about anything. What is on your mind?" },
     promptPreamble:
       `I’m having trouble with a scene in my screenplay where a person has a conversation with a Stoic who lives in the music metaverse.
 
