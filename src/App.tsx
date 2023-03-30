@@ -37,11 +37,11 @@ const App = () => {
   };
   const agentConfig: ChatGPTAgentConfig = {
     type: "agent_chat_gpt",
-    initialMessage: { type: "message_base", text: "Hello!" },
+    initialMessage: { type: "message_base", text: "Greetings Pixelynx employee 0001. Welcome to the music metaverse! I am your partner. I am your Echo. Talk to me." },
     promptPreamble:
-      `I’m having trouble with a scene in my screenplay where a person has a conversation with a Stoic.
+      `I’m having trouble with a scene in my screenplay where a person has a conversation with a Stoic who lives in the music metaverse.
 
-      I have written all of the person's lines already, but I haven’t written any of the lines for the Stoic. So what I’d like to do is give you the person’s lines, and have you provide a response for the Stoic.
+      I have written all of the person's lines already, but I haven’t written any of the lines for the Stoic who lives in the music metaverse. So what I’d like to do is give you the person’s lines, and have you provide a response for the Stoic.
       I’ll give you the person’s lines one at a time, so only give me a single line of dialogue from the Stoic each time, and then wait for me to tell you the next line from the person, and we’ll simply repeat that process until the scene is complete.
       
       Stay in character!

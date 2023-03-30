@@ -112,7 +112,7 @@ const Conversation = ({
               })}
             </Select>
           )}
-          <Select
+          {/* <Select
             color={"#FFFFFF"}
             disabled={["connecting", "connected"].includes(status)}
             onChange={(event) =>
@@ -132,7 +132,7 @@ const Conversation = ({
                 </option>
               );
             })}
-          </Select>
+          </Select> */}
         </HStack>
       )}
     </>
